@@ -200,10 +200,11 @@ html {
 
 h1 {
   text-align: center;
-  margin: 1.375em 0;
+  margin: 1.182em 0 ;
 }
 
 p {
+  line-height: 1.182em;
   padding-bottom: 1.182em;
   padding-top: 1.182em;
 }
@@ -229,7 +230,7 @@ input {
   width: auto;
 }
 
-#input-age-verification {
+li {
   padding-top: 1.182em;
   padding-bottom: 1.182em;
 }
