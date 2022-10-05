@@ -198,8 +198,45 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+h1 {
+  text-align: center;
+  margin: 1.375em 0;
+}
+
+p {
+  padding-bottom: 1.182em;
+  padding-top: 1.182em;
+}
+
+input {
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 30px;
+  margin: 8px 1.5%;
+  border: 1px solid;
+  border-color: #c0c0c0;
+  border-radius: 6px;
+  background-color: rgb(209, 209, 209);
+}
+
+#input-age-verification label {
+  font-size: 0.825em;
+  display: inline;
+}
+
+#input-age-verification input {
+  box-sizing: none;
+  width: auto;
+}
+
+#input-age-verification {
+  padding-top: 1.182em;
+  padding-bottom: 1.182em;
+}
+
 label {
   display: block;
+  text-align: center;
 }
 
 /* ===== LAYOUT STYLES ====== */
