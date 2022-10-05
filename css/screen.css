@@ -227,7 +227,7 @@ input {
 }
 
 #input-age-verification input {
-  box-sizing: none;
+  box-sizing: content-box;
   width: auto;
 }
 
@@ -239,6 +239,30 @@ li {
 label {
   display: block;
   text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    margin: 1.5% 10%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    margin: 1.5% 10%;
+  }
+
+  form {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    padding: 0;
+    margin: 1.5% 10%;
+  }
 }
 
 /* ===== LAYOUT STYLES ====== */
